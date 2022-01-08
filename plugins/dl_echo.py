@@ -82,7 +82,7 @@ async def echo(bot, m: Message):
     url = yt.watch_url
     thumb_url = yt.thumbnail_url
     command_to_exec = [
-        "youtube-dl",
+        "yt-dlp",
         "--no-warnings",
         "--youtube-skip-dash-manifest",
         "-j",
